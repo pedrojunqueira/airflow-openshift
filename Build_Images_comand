@@ -1,0 +1,16 @@
+# airflow-scheduler
+
+# Webserver
+
+docker build -t pedrojunqueira/openshift-airflow-webserver:latest .
+
+docker push pedrojunqueira/openshift-airflow-webserver:latest
+
+
+# Scheduler
+
+docker build -t pedrojunqueira/openshift-airflow-scheduler:latest .
+
+docker push pedrojunqueira/openshift-airflow-scheduler:latest
+
+
